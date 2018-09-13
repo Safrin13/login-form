@@ -1,0 +1,131 @@
+body{
+	margin:0;
+	padding: 0;
+background: url(../image/bg.jpg);
+background-size: cover;
+font-family: sans-serif;
+
+}
+
+.loginbox{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -57%);
+	height: 397px;
+	width: 350px;
+	padding: 70px 30px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.3);
+	border-radius: 2px;
+
+}
+
+
+.transparent_btn{
+	display: inline-block;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	padding: 5px;
+	font-family:times new roman;
+	opacity: .8;
+	top: calc(-100px/2);
+	border-radius: 2px;
+	overflow: hidden;
+
+}
+h3{
+	color: white;
+	text-align: center;
+	opacity: .8;
+}
+.loginbox p{
+	text-align: center;
+	font-size: 14px;
+	font-family: times new roman;
+	color: #fff;
+	opacity: .9;
+}
+.loginbox input{
+	
+	width: 99%;
+}
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+{
+border-bottom: 1px solid #fff;
+background: white;
+height: 30px;
+color: #fff;
+font-size: 14px;
+font-family: times new roman;
+
+}
+.placeholder{
+	color: rgba(255,255,255,.5);
+}
+.button
+{
+	height:40px;
+	border:1px solid transparent;
+	color: white;
+	font-size: 14px;
+	background: #D3501F;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+	font-family: times new roman;
+}
+.button:hover {
+	background: #efed40;
+	color: #262626;
+
+}
+.Forgotpassword {
+display: inline-block;
+	background-color: #A34A28;
+	border: 1px solid transparent;
+	color: white;
+	font-size: 14px;
+	font-family:times new roman;
+	opacity: .8;
+	width: 100%;
+	cursor: pointer;
+	margin-top: 8px;
+	height: 40px;
+	text-decoration: none;
+}
+.Create{
+	height:43px;
+	border:1px solid white;
+	color: white;
+	font-size: 14px;
+	background: transparent;
+	overflow: hidden;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 80%;
+	font-family: times new roman;
+
+}
+.Account{
+	position: absolute;
+	left:50%;
+	transform: translate(-50%, -50%);
+	height:auto;
+	width: 350px;
+	padding:30px;
+	margin-top: 555px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.6);
+	border-radius: 2px;
+}
+.Account p{
+	margin: 0;
+	font-family: times new roman;
+	color: white;
+	text-align: center;
+	padding: 4px;
+
+}
